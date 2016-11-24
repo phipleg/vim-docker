@@ -1,0 +1,7 @@
+vim:
+  build: .
+  command: vim
+  volumes:
+    - .:/var/www
+  environment:
+    SERVICE_HOST: 172.17.42.1
